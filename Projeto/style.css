@@ -1,5 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
 body{
-    margin: 0;
-    padding: 0;
-    background-image: url(imagens/fundo-madeira.jpg);
+    background: url(imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#celular{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    height: 627px;
+    width: 311px;
+    background-color: blue;
+    transform: translate(-50%, -50%);
+    background:url(imagens/frame-iphone.png) no-repeat;
 }
